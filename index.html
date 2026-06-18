@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Шаблон обратной связи</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 class="title">Шаблон сообщений<br>для обратной связи</h1>
+    <div class="mid-flex">
+        <form class="parameters">
+            <div class="param-wrapper">
+                Курс
+                <select class="course">
+                    <option value="jun">Junior</option>
+                    <option value="mid">Middle</option>
+                    <option value="hi">High</option>
+                </select>
+            </div>
+            <div class="param-wrapper">
+                Модуль
+                <select class="module">
+                </select>
+            </div>
+            <div class="param-wrapper">
+                Урок
+                <select class="lesson">
+                </select>
+            </div>
+        </form>
+        <div class="result">
+            <div class="result-title-wrapper">
+                <h2 class="uncopyable">Сообщение</h2>
+                <img class="hello-copy" src="https://cdn-icons-png.flaticon.com/256/88/88026.png" alt="COPY">
+            </div>
+            <textarea readonly class="result-text hello"></textarea>
+        </div>
+    </div>
+    <script src="generated.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
