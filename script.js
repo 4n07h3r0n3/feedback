@@ -1,5 +1,5 @@
 document.getElementsByClassName("hello-copy")[0].addEventListener('click', async () => {
-    const text = document.getElementsByClassName("hello-copy")[0].value;
+    const text = document.getElementsByClassName("result-text")[0].value;
 
     try {
         await navigator.clipboard.writeText(text);
